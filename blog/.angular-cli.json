@@ -53,5 +53,10 @@
   "defaults": {
     "styleExt": "css",
     "component": {}
+   ,
+  "scripts":["../node_modules/jquery-slim/dist/jquery.slim.js",
+    "../node_modules/tether/dist/js/tether.js",
+    "../node_modules/bootstrap/dist/js/bootstrap.min.js"]
+   
   }
 }
