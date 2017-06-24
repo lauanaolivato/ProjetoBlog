@@ -8,12 +8,10 @@
 #conteudo {
     padding: 2.5rem 2em 2rem 2rem;
     text-align: justify;
-    background-color: #90afc5;
-    color: #fff;
-}
+    }
 
 #menu-titulo {
-    padding:5rem 1.5rem;
+    padding: .5rem 1.5rem;
 }
 
 #menu-titulo h6 {

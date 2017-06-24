@@ -2,32 +2,50 @@
   <div class="row">
     <div class="cold-md-4" id="menu">
       <header>
-        <div  id="menu-titulo">
+        <div id="menu-titulo">
           <h1>Lauana Blog </h1>
           <h2><i> Aprendendo Na Pratica </i> </h2>
         </div>
-        <nav class="navbar navbar-inverse" id="menu-links">
-          <div class="navbar-var">
+        <nav class="navbar navbar-inverse navbar-toggleable-sm" id="menu-links">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu-links-interno">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand hidden-md-up" href="#">menu</a>
+          <div class="navbar-collapse collapse" id="menu-links-interno">
+            <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#sobre-mim">Sobre</a>
             <a class="nav-item nav-link" href="#artigos">Artigos</a>
             <a class="nav-item nav-link" href="#Contato">Contato</a>
+            </div>
           </div>
         </nav>
       </header>
     </div>
-    <div class="cold-md-8" id="conteudo">conteudo</div>
-    <article id="Sobre Mim">
-      <h1>Sobre Mim</h1>
-      <div> Veja Mais Sobre esse conteudi no site logo abaixo, ou no link na descrição </div>
-      <button> Ler Mais</button>
+    
+    <div class="cold-md-8" id="conteudo">
+    <article id="Sobre Mim" class="row">
+      <div class="col-md-12">
+        <h1>Sobre Mim</h1>
+        <div> Veja Mais Sobre esse conteudo no site logo abaixo, ou no link na descrição </div>
+      </div>
     </article>
-    <section id="artigos">
-      <article class="artigo">
-        <h1> Artigo 1 </h1>
-        <div> Veja Mais Sobre esse conteudi no site logo abaixo, ou no link na descrição </div>
-        <button> Ler Mais </button>
-      </article>
-      conteudo
+    <section id="artigos" class="row">
+      <div class="col-md-6">
+        <article class="card artigo">
+          <div class="card-block">
+            <h2 class="card-title">Artigo 1 </h2>
+            <p class="card-text">Veja Mais Sobre esse conteudo no site logo abaixo, ou no link na descrição</p>
+            <button class="btn btn-primary"> Ler Mais </button>
+          </div>
+        </article>
+        <article class="card artigo">
+          <div class="card-block">
+            <h2 class="card-title">Artigo 2 </h2>
+            <p class="card-text">Veja Mais Sobre esse conteudo no site logo abaixo, ou no link na descrição</p>
+            <button class="btn btn-primary"> Ler Mais </button>
+          </div>
+        </article>
+      </div>
     </section>
- </div>
+  </div>
 </div>
