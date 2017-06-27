@@ -1,11 +1,12 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="cold-md-4" id="menu">
+  <div class="row"> id="main-row">
+    <div class="cold-md-4 sidebar" id="menu">
       <header>
         <div id="menu-titulo">
           <h1>Lauana Blog </h1>
-          <h2><i> Aprendendo Na Pratica </i> </h2>
+          <h2> <i>Aprendendo Na Pratica </i> </h2>
         </div>
+        
         <nav class="navbar navbar-inverse navbar-toggleable-sm" id="menu-links">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu-links-interno">
             <span class="navbar-toggler-icon"></span>
@@ -22,7 +23,7 @@
       </header>
     </div>
     
-    <div class="cold-md-8" id="conteudo">
+    <div class="cold-md-8 offset-md-4" id="conteudo">
     <article id="Sobre Mim" class="row">
       <div class="col-md-12">
         <h1>Sobre Mim</h1>
@@ -31,6 +32,7 @@
     </article>
     <section id="artigos" class="row">
       <div class="col-md-6">
+        <div class="p-3"> </div> 
         <article class="card artigo">
           <div class="card-block">
             <h2 class="card-title">Artigo 1 </h2>
@@ -38,6 +40,7 @@
             <button class="btn btn-primary"> Ler Mais </button>
           </div>
         </article>
+         <div class="p-3"> </div> 
         <article class="card artigo">
           <div class="card-block">
             <h2 class="card-title">Artigo 2 </h2>
@@ -47,5 +50,7 @@
         </article>
       </div>
     </section>
+    <app-contato></app-contato>
   </div>
 </div>
+
